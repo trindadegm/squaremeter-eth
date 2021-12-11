@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Square Meter Ethers</title>
+    </head>
+    <body>
+
+        <div>
+            <p>TokenID</p>
+        </div>
+        <input type="number" id="token_id"/>
+
+        <div>
+            <p>Chain ID</p>
+        </div>
+        <input type="number" id="chain_id"/>
+
+        <div>
+            <p>Contract address</p>
+        </div>
+        <!-- <input type="text" id="contract_address" value="0x1ed8e17ad152f51e0c1e1d82f38b76c15bf2eb41"/> -->
+        <input type="text" id="contract_address" value="0xdBA1F0D7936336d650Fc6181038Dd30AF35E5c97"/>
+
+        <div>
+            <p>URI</p>
+        </div>
+        <input type="text" id="uri"/>
+
+        <div>
+            <p>Preço (em GWEI)</p>
+        </div>
+        <input type="number" id="price"/>
+
+        <div>
+            <button id="sign_btn">Cadastrar</button>
+        </div>
+
+        <div>
+            <section id="result_area" style="width:50%;word-wrap:break-word;font-family:monospace;">
+            </section>
+        </div>
+
+        <script type="module" src="/scripts/eth_signer.js"></script>
+    </body>
+</html>
